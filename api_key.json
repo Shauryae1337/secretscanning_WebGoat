@@ -1,5 +1,4 @@
 {
-    # Basic API credentials
     "api_credentials": {
         "aws": {
             "access_key_id": "AKIAIOSFODNN7EXAMPLE",
@@ -16,7 +15,7 @@
         }
     },
 
-    # Database credentials
+
     "database_configurations": {
         "mysql": {
             "username": "root",
@@ -30,7 +29,6 @@
         }
     },
 
-    # PII (Personal Identifiable Information)
     "personal_identification": {
         "social_security_numbers": [
             "123-45-6789",
