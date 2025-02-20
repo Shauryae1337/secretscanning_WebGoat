@@ -1,0 +1,48 @@
+{
+    # Basic API credentials
+    "api_credentials": {
+        "aws": {
+            "access_key_id": "AKIAIOSFODNN7EXAMPLE",
+            "secret_access_key": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+            "session_token": "FQoGZXIvYXdzEKn//0ANeDPf/+YgdijWJLZYrTJPllFyZMaE/BB0 DwSAPvMUn/2uDFIXL8P3MI0/vUsouMzVjjqlfKT+Tge6JrdAC77omwoQHlWSFRJ80iIKIiKsrGQAGUfWgvLZeuMMqW08gzA3arZkywwNho3rDrHU5Z9/MrCDDOeogvMSUFgU1w/p306kdUMk1j0iMcFt5ca2xKFhEWoIFfcECWH/to6NurhL5sI/LAg=="
+        },
+        "github": {
+            "personal_access_token": "ghp_16C7e42F292c6912E7710c838347A151BdGntdfY",
+            "oauth_token": "gho_16C7e42F292c6912E7710c838347A151BdGntdfY"
+        },
+        "google_cloud": {
+            "api_key": "AIzaSyBdgcRCZBmvl0TPyzoI6pbD4L8bGZB1lmI",
+            "service_account_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaGFuIjoiMjMwfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+        }
+    },
+
+    # Database credentials
+    "database_configurations": {
+        "mysql": {
+            "username": "root",
+            "password": "My$ecUr3P@ssw0rd!",
+            "connection_string": "mysql://root:My$ecUr3P@ssw0rd!@localhost:3306/mydb"
+        },
+        "postgresql": {
+            "username": "postgres",
+            "password": "P0stgr3s_QA_2023",
+            "connection_string": "postgresql://postgres:P0stgr3s_QA_2023@localhost:5432/mydb"
+        }
+    },
+
+    # PII (Personal Identifiable Information)
+    "personal_identification": {
+        "social_security_numbers": [
+            "123-45-6789",
+            "987-65-4321"
+        ],
+        "credit_card_numbers": [
+            "4111111111111111",
+            "5105105105105100"
+        ],
+        "passport_numbers": [
+            "US12345678",
+            "GB98765432"
+        ]
+    }
+}
